@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tokenomics = () => {
   return (
-    <div>Tokenomics</div>
+    <div className='bg-[#DD1A1B]'>Tokenomics</div>
   )
 }
 
