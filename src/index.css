@@ -16,6 +16,12 @@ body {
 .hero-h1 {
   font-family: "Knewave";
 }
+.dual-bg {
+  background-image: 
+  url('../public/bg-social.png');
+background-size: cover;
+background-position: center;
+}
 
 .chillax-text {
   font-family: 'Chillax', sans-serif;
