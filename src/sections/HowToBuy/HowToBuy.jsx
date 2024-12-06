@@ -63,7 +63,7 @@ const HowToBuy = () => {
   
     </div>
     <div className="sm:-mt-[34rem]">
-      <img src="Rainbow-FDV.png" alt="Rainbow-FDV"/>
+      <img src="Rainbow-FDV.png" alt="Rainbow-FDV" className="w-[1400px] h-[900px] sm:w-[500px] sm:h-[350px] md:w-auto md:h-auto mx-auto object-cover transition-transform duration-300 ease-in-out"/>
     </div>
   </div>
   );
