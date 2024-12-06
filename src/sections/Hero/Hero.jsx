@@ -3,6 +3,13 @@ import "@fontsource/knewave";
 import "@fontsource/knewave/400.css";
 
 const Hero = () => {
+  // Scroll handler function
+  const handleScroll = () => {
+    window.scrollBy({
+      top: 900, 
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="relative sm:mx-auto sm:pt-5 mx-6 max-w-screen-lg sm:max-w-screen-md">
       <h1 className="text-left max-w-prose leading-relaxed mt-10 sm:leading-relaxed mx-auto hero-h1 text-[#F46023] text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#fff,_2px_-2px_0_#fff,_-2px_2px_0_#fff,_2px_2px_0_#fff]">
@@ -23,8 +30,11 @@ const Hero = () => {
           </span>
         </span>
       </h4>
-      <button className="absolute rounded-[30px] -ml-4 mt-10 mb-2 hero-h1 text-[#F46023] left-4 bg-white border-[3px] border-black px-8 py-2 shadow-md hover:bg-gray-100 hover:scale-105 hover:shadow-lg active:scale-95 active:shadow-inner transition-all duration-300 ease-in-out">
-        Buy FDV
+      <button
+        onClick={handleScroll}
+        className="absolute rounded-[30px] -ml-4 mt-10 mb-2 hero-h1 text-[#F46023] left-4 bg-white border-[3px] border-black px-8 py-2 shadow-md hover:bg-gray-100 hover:scale-105 hover:shadow-lg active:scale-95 active:shadow-inner transition-all duration-300 ease-in-out"
+      >
+        Learn More
       </button>
     </div>
   );
