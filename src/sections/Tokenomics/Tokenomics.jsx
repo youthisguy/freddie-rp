@@ -9,12 +9,12 @@ const Tokenomics = () => {
       <div className="pt-6 relative">
         <img src="./Tokenomics-FDV.png" alt="Tokenomics-FDV" />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center sm:-mr-60 -mr-16 wrap-all overflow-hidden">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center sm:-mr-60 -mr-9">
           <p className="chillax-text text-[#E45421] pb-5 sm:text-2xl break-all text-sm sm:w-full  text-wrap sm:-mt-44 -mt-2">
-            TOTAL SUPPLY
+            TOKEN ADDRESS
           </p>
           <p className="chillax-text text-[#000] text-xs sm:text-base sm:max-full break-all max-w-[50%]">
-            1,000,000,000 $FDV
+            DAMpC91BA8JnaXCVTkACFb4js4dkLfrKr16e53fmpump
           </p>
         </div>
 

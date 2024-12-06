@@ -3,7 +3,7 @@ import React from "react";
 const ContractAddress = () => {
   return (
     <>
-      <div className="pt-6">
+      <div className="pt-12">
         <img src="./hero.png" alt="hero" />
       </div> 
       <div className="bg-[#EEB678] -mt-4 flex items-center flex-col justify-center">
