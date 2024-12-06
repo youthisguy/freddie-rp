@@ -25,7 +25,7 @@ const HowToBuy = () => {
                 href="https://phantom.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-extrabold text-[#000000]"
+                className="font-extrabold text-xl text-[#000000]"
               >
                 Phantom
               </a>{" "}
@@ -51,7 +51,7 @@ const HowToBuy = () => {
                 href="https://phantom.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-[#000000]"
+                className="font-bold text-xl text-[#000000]"
               >
                 Phantom
               </a>{" "}
@@ -77,7 +77,7 @@ const HowToBuy = () => {
                 href="https://raydium.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-[#000000]"
+                className="font-bold text-xl text-[#000000]"
               >
                 Raydium
               </a>
@@ -86,7 +86,7 @@ const HowToBuy = () => {
                 href="https://jup.ag/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-[#000000]"
+                className="font-bold text-xl text-[#000000]"
               >
                 Jupiter
               </a>{" "}
