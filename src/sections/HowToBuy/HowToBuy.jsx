@@ -3,14 +3,14 @@ import React from "react";
 const HowToBuy = () => {
   return (
     <div className="bg-[#275CFE] sm:mt-56 mt-16 relative">
-      <h1 className="pb-32 text-center max-w-prose leading-relaxed sm:leading-relaxed mx-auto hero-h1 text-white text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000]">
+      <h1 className="sm:pb-32 pb-14 text-center max-w-prose leading-relaxed sm:leading-relaxed mx-auto hero-h1 text-white text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000]">
         HOW TO BUY
       </h1>
 
 
 
-      <div className="flex flex-row relative mx-auto  items-center justify-center">
-        <div className="relative mx-4 mt-4">
+      <div className="flex flex-row relative mx-auto flex-wrap items-center justify-center">
+        <div className="relative mx-4 sm:pb-0 pb-5 mt-4">
         <img 
       src="how-to-buy.png" 
       alt="how-to-buy" 
@@ -26,7 +26,7 @@ const HowToBuy = () => {
     </div>
         </div>
   
-        <div className="relative mx-4">
+        <div className="relative sm:pb-0 pb-5  mx-4">
         <img 
       src="how-to-buy.png" 
       alt="how-to-buy" 
@@ -42,7 +42,7 @@ const HowToBuy = () => {
     </div>
         </div>
 
-        <div className="relative mx-4 mb-4">
+        <div className="relative sm:pb-0 pb-5 mx-4 mb-4">
         <img 
       src="how-to-buy.png" 
       alt="how-to-buy" 

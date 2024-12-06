@@ -4,7 +4,7 @@ const Socials = () => {
   return (
     <div className="dual-bg bg-cover bg-center">
       {" "}
-      <div className="pt-36 text-center max-w-prose leading-relaxed sm:leading-relaxed mx-auto hero-h1 text-white text-5xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000]">
+      <div className="sm:pt-36 pt-11 text-center max-w-prose leading-relaxed sm:leading-relaxed mx-auto hero-h1 text-white text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000]">
         OUR SOCIALS
       </div>
       <div className="flex justify-center items-center gap-6 mt-8">

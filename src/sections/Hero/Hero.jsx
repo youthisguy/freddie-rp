@@ -5,7 +5,7 @@ import "@fontsource/knewave/400.css";
 const Hero = () => {
   return (
     <div className="relative sm:mx-auto sm:pt-5 mx-6 max-w-screen-lg sm:max-w-screen-md">
-      <h1 className="text-left max-w-prose leading-relaxed sm:leading-relaxed mx-auto hero-h1 text-[#F46023] text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#fff,_2px_-2px_0_#fff,_-2px_2px_0_#fff,_2px_2px_0_#fff]">
+      <h1 className="text-left max-w-prose leading-relaxed mt-10 sm:leading-relaxed mx-auto hero-h1 text-[#F46023] text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#fff,_2px_-2px_0_#fff,_-2px_2px_0_#fff,_2px_2px_0_#fff]">
         <span className="text-5xl sm:text-6xl">Hi!</span> I'm Freddie Da Vinci
       </h1>
       <h4 className="chillax-text text-left text-base font-semibold sm:text-lg md:text-xl max-w-prose leading-relaxed sm:leading-relaxed mx-auto pt-6 [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]">
