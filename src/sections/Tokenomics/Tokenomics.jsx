@@ -9,7 +9,7 @@ const Tokenomics = () => {
       <div className="pt-6 relative">
         <img src="./Tokenomics-FDV.png" alt="Tokenomics-FDV" />
 
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center sm:-mr-60 -mr-16">
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center sm:-mr-60 -mr-16 wrap-all overflow-hidden">
           <p className="chillax-text text-[#E45421] pb-5 sm:text-2xl break-all text-sm sm:w-full  text-wrap sm:-mt-44 -mt-2">
             TOTAL SUPPLY
           </p>
