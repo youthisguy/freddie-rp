@@ -22,7 +22,7 @@ const Tokenomics = () => {
         </div>
 
         {/* total supply */}
-        <div className="sm:flex absolute inset-0 flex-col items-center justify-center text-center mt-64 ml-44 max-w-fit">
+        <div className="sm:flex absolute inset-0 flex-col items-center justify-center text-center mt-64 ml-[10rem] max-w-fit">
           <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl  w-full -mt-44 text-lg sm:w-full ">
             TOTAL SUPPLY
           </p>
