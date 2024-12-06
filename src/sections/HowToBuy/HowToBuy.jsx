@@ -19,8 +19,17 @@ const HowToBuy = () => {
             <p className="chillax-text text-[#E45421] pb-5 text-2xl sm:text-2xl max-w-48 mt-38">
               Create a Wallet
             </p>
-            <p className="chillax-text text-[#000] text-lg sm:text-xl max-w-48">
-              Download Phantom or your wallet of choice
+            <p className="chillax-text text-[#242222] text-lg sm:text-xl max-w-48">
+              Download{" "}
+              <a
+                href="https://phantom.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-extrabold text-[#000000]"
+              >
+                Phantom
+              </a>{" "}
+              or your wallet of choice
             </p>
           </div>
         </div>
@@ -36,9 +45,17 @@ const HowToBuy = () => {
             <p className="chillax-text text-[#E45421] pb-5 text-2xl sm:text-2xl max-w-48 mt-38">
               Get Some SOL
             </p>
-            <p className="chillax-text text-[#000] text-lg sm:text-xl max-w-48">
-              To buy $FDV, you'll need SOL. Get SOL via the Phantom app or
-              deposit it from your crypto exchange.
+            <p className="chillax-text text-[#242222] text-lg sm:text-xl max-w-48">
+              To buy $FDV, you'll need SOL. Get SOL via the{" "}
+              <a
+                href="https://phantom.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-[#000000]"
+              >
+                Phantom
+              </a>{" "}
+              app or deposit it from your crypto exchange.
             </p>
           </div>
         </div>
@@ -54,17 +71,37 @@ const HowToBuy = () => {
             <p className="chillax-text text-[#E45421] pb-5 text-2xl sm:text-2xl first-letter:max-w-48 mt-38">
               Buy $FDV
             </p>
-            <p className="chillax-text text-[#000] text-lg sm:text-xl max-w-48">
-              Connect your wallet, enter the CA, and swap SOL for your first bag
-              of $FDV.
+            <p className="chillax-text text-[#242222] text-lg sm:text-xl max-w-48">
+              Connect your wallet, enter the CA, and swap SOL on a DEX like
+              {" "}<a
+                href="https://raydium.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-[#000000]"
+              >
+                Raydium
+              </a>
+              , or
+              {" "}<a
+                href="https://jup.ag/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-[#000000]"
+              >
+                Jupiter
+              </a>{" "}
+              for your first bag of $FDV.
             </p>
           </div>
         </div>
       </div>
       {/* Small screens */}
       <div className="sm:hidden sm:-mt-[34rem]">
-      <img src="Rainbow-FDV3.png" alt="Rainbow-FDV2" className="w-[1000px] h-[500px] sm:w-[500px] sm:h-[350px] md:w-auto md:h-auto mx-auto object-cover transition-transform duration-300 ease-in-out"/>
-    
+        <img
+          src="Rainbow-FDV3.png"
+          alt="Rainbow-FDV2"
+          className="w-[1000px] h-[500px] sm:w-[500px] sm:h-[350px] md:w-auto md:h-auto mx-auto object-cover transition-transform duration-300 ease-in-out"
+        />
       </div>
 
       {/* Larger screens */}
