@@ -18,7 +18,7 @@ const Hero = () => {
       <h4 className="chillax-text text-left text-base font-semibold sm:text-lg md:text-xl max-w-prose leading-relaxed sm:leading-relaxed mx-auto pt-6 [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]">
         but my friends call me FDV for short. <br />
         <span className="chillax-text block mt-4">
-          You've seen coins with sky-high fully diluted valuations, where Cs and
+          You've seen coins with sky-high fully diluted valuations, where VCs and
           early investors hold all the power, dumping on everyone else.{" "}
           <span className="chillax-text block mt-4">
             FDV is different. I'm 100% non-VC-backed, and my mission is simple:
