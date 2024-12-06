@@ -2,7 +2,7 @@ import React from "react";
 
 const HowToBuy = () => {
   return (
-    <div className="bg-[#275CFE] sm:mt-56 mt-16 relative">
+    <div className="bg-[#275CFE] bg-custom-blue bg-opacity-0 sm:mt-56 mt-16 relative">
       <h1 className="sm:pb-32 pb-14 text-center max-w-prose leading-relaxed sm:leading-relaxed mx-auto hero-h1 text-white text-4xl font-bold sm:text-5xl [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000]">
         HOW TO BUY
       </h1>
