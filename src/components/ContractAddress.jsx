@@ -6,7 +6,7 @@ const ContractAddress = () => {
       <div className="pt-12">
         <img src="./hero.png" alt="hero" />
       </div> 
-      <div className="bg-[#EEB678] -mt-4 flex items-center flex-col justify-center">
+      <div className="bg-[#EEB678] -mb-[2px] -mt-4 flex items-center flex-col justify-center">
         <button className="rounded-[35px] mt-8 border-[3px] text-black bg-white border-black px-5 sm:px-7 py-3 sm:py-4 shadow-md hover:bg-gray-100 transition text-sm sm:text-5xl md:text-4xl break-all max-w-[90%] font-bold sm:max-w-none cursor-copy">
           CA: DAMpC91BA8JnaXCVTkACFb4js4dkLfrKr16e53fmpump
         </button>

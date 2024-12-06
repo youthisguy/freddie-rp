@@ -7,7 +7,7 @@ const BackStory = () => {
       <img
         src="./Backstory-2.png"
         alt="backstory"
-        className="absolute sm:top-[68rem] top-[15rem] left-0 h-auto z-5"
+        className="absolute sm:top-[68rem] top-[17rem] left-0 h-auto z-5"
       />
     </div>
   );
