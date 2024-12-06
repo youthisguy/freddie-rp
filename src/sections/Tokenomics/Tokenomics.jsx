@@ -12,8 +12,8 @@ const Tokenomics = () => {
           alt="Tokenomics-FDV"
           class="w-[500px] h-[200px] sm:w-[500px] sm:h-[350px] md:w-auto md:h-auto mx-auto object-cover transition-transform duration-300 ease-in-out"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center sm:-mr-60 ml-16">
-          <p className="chillax-text text-[#E45421] pb-5 sm:text-2xl break-all text-sm max-w-fit  text-wrap sm:-mt-44 -mt-2">
+        <div className="hidden absolute inset-0 sm:flex flex-col items-center justify-center text-center sm:-mr-60 ml-16">
+          <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl break-all text-sm max-w-fit  text-wrap sm:-mt-44 -mt-2">
             TOKEN ADDRESS
           </p>
           <p className="chillax-text text-[#000] text-xs sm:text-base sm:max-full break-all max-w-[50%]">
@@ -22,11 +22,11 @@ const Tokenomics = () => {
         </div>
 
         {/* total supply */}
-        <div className="hidden sm:flex absolute inset-0 flex-col items-center justify-center text-center mt-64 -mr-60">
-          <p className="chillax-text text-[#E45421] pb-5 sm:text-2xl  w-full -mt-44 text-sm sm:w-full ">
+        <div className="sm:flex absolute inset-0 flex-col items-center justify-center text-center mt-64 ml-40 max-w-fit">
+          <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl  w-full -mt-44 text-lg sm:w-full ">
             TOTAL SUPPLY
           </p>
-          <p className="chillax-text text-[#000] text-lg sm:text-xl max-full">
+          <p className="chillax-text text-[#000] text-sm sm:text-xl max-full">
             1,000,000,000 $FDV
           </p>
         </div>
