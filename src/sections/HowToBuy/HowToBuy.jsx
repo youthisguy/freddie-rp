@@ -56,7 +56,7 @@ const HowToBuy = () => {
         Buy $FDV
       </p>
       <p className="chillax-text text-[#000] text-lg sm:text-xl max-w-48">
-      Connect your wallet, enter the CA address, and swap SOL for your first bag of $FDV.
+      Connect your wallet, enter the CA, and swap SOL for your first bag of $FDV.
       </p>
     </div>
         </div>
