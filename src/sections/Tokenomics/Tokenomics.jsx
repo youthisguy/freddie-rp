@@ -14,7 +14,7 @@ const Tokenomics = () => {
           loading="lazy"
         />
         {/* token address */}
-        <div className="border-t-amber-500 w-auto justify-center text-center sm:-mt-[20rem] sm:-mr-70 absolute sm:ml-[39rem] ml-[10.5rem] ">
+        <div className="border-t-amber-500 w-auto justify-center text-center -mt-[10rem] sm:-mt-[20rem] sm:-mr-70 absolute sm:ml-[39rem] ml-[11rem] ">
 
         
         <div className="hidden sm:flex flex-col items-center justify-center text-center">
