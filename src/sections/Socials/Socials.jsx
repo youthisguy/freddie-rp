@@ -14,7 +14,7 @@ const Socials = () => {
       rel="noopener noreferrer"
       className="transition-transform transform hover:scale-110 hover:rotate-3"
     >
-      <img src="./twitter.png" alt="Twitter" className="w-16 h-16" />
+      <img src="./twitter.png" alt="Twitter" className="w-16 h-16" loading="lazy"/>
     </a>
     <a
       href="https://t.me/FDVonsol"
@@ -22,10 +22,10 @@ const Socials = () => {
       rel="noopener noreferrer"
       className="transition-transform transform hover:scale-110 hover:-rotate-3"
     >
-      <img src="./tg.png" alt="Telegram" className="w-16 h-16" />
+      <img src="./tg.png" alt="Telegram" className="w-16 h-16" loading="lazy"/>
     </a>
   </div>
-      <img src="./SOCIALS.png" alt="Background" />
+      <img src="./SOCIALS.png" alt="Background" loading="lazy"/>
     </div>
   );
 };
