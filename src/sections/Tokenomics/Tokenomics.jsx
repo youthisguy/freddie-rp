@@ -11,6 +11,7 @@ const Tokenomics = () => {
           src="./Tokenomics-FDV.png"
           alt="Tokenomics-FDV"
           className="w-[500px] h-[200px] sm:w-[500px] sm:h-[350px] md:w-auto md:h-auto mx-auto object-cover transition-transform duration-300 ease-in-out"
+          loading="lazy"
         />
         <div className="hidden absolute inset-0 sm:flex flex-col items-center justify-center text-center sm:-mr-60 ml-16">
           <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl break-all text-sm max-w-fit  text-wrap sm:-mt-44 -mt-2">
