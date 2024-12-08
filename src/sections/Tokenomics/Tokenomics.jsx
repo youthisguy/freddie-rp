@@ -15,13 +15,7 @@ const Tokenomics = () => {
         />
         {/* token address */}
         <div
-          className="border-t-amber-500 w-[170px] h-[200px] min-w-[100px] justify-center text-center 
-  -mt-[10rem] absolute
-  ml-[9rem]
-    min-[414px]:ml-[10rem]
-  min-[430px]:ml-[10.5rem]
-  sm:ml-[46rem] sm:-mt-[20rem]"
-        >
+          className="border-t-amber-500 w-[170px] h-[200px] min-w-[100px] justify-center text-center -mt-[10rem] absolute ml-[9.3rem] min-[414px]:ml-[10rem] min-[430px]:ml-[10.5rem] sm:ml-[46rem] sm:-mt-[20rem]">
           <div className="hidden sm:flex flex-col items-center justify-center text-center">
             <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl text-sm text-nowrap sm:-mt-44 -mt-2">
               TOKEN ADDRESS
