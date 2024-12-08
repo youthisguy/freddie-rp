@@ -14,27 +14,32 @@ const Tokenomics = () => {
           loading="lazy"
         />
         {/* token address */}
-        <div className="border-t-amber-500 w-auto justify-center text-center -mt-[10rem] sm:-mt-[20rem] sm:-mr-70 absolute sm:ml-[39rem] ml-[11rem] ">
+        <div
+          className="border-t-amber-500 w-[170px] h-[200px] min-w-[100px] justify-center text-center 
+  -mt-[10rem] absolute
+  ml-[9rem]
+    min-[414px]:ml-[10rem]
+  min-[430px]:ml-[10.5rem]
+  sm:ml-[46rem] sm:-mt-[20rem]"
+        >
+          <div className="hidden sm:flex flex-col items-center justify-center text-center">
+            <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl text-sm text-nowrap sm:-mt-44 -mt-2">
+              TOKEN ADDRESS
+            </p>
+            <p className="chillax-text text-[#000] text-xs sm:text-base">
+              DAMpC91BA8JnaXCVTkACFb4js4dkLfrKr16e53fmpump
+            </p>
+          </div>
 
-        
-        <div className="hidden sm:flex flex-col items-center justify-center text-center">
-          <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl text-sm text-nowrap sm:-mt-44 -mt-2">
-            TOKEN ADDRESS
-          </p>
-          <p className="chillax-text text-[#000] text-xs sm:text-base">
-            DAMpC91BA8JnaXCVTkACFb4js4dkLfrKr16e53fmpump
-          </p>
-        </div>
-
-        {/* total supply */}
-        <div className="sm:flex flex-col items-center justify-center text-center mt-[20px]">
-          <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl text-nowrap w-full mt-[10px] text-lg sm:w-full ">
-            TOTAL SUPPLY
-          </p>
-          <p className="chillax-text text-[#000] text-sm sm:text-xl text-nowrap">
-            1,000,000,000 $FDV
-          </p>
-        </div>
+          {/* total supply */}
+          <div className="sm:flex flex-col items-center justify-center text-center mt-[20px]">
+            <p className="chillax-text text-[#E45421] pb-3 sm:text-2xl text-nowrap w-full mt-[10px] text-lg sm:w-full ">
+              TOTAL SUPPLY
+            </p>
+            <p className="chillax-text text-[#000] text-sm sm:text-xl text-nowrap">
+              1,000,000,000 $FDV
+            </p>
+          </div>
         </div>
       </div>
     </div>
