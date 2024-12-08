@@ -5,8 +5,8 @@ import './index.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App w-full min-h-screen bg-[#275CFE]"> 
+      <header className="App-header max-w-[1440px] mx-auto">
         <Header />
         <Hero />
         <ContractAddress />
